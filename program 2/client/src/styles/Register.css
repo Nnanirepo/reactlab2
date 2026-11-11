@@ -1,0 +1,142 @@
+.register-page {
+    min-height: 100vh;
+    display: flex;
+    background: #f5f7fb;
+}
+
+.register-left {
+    width: 50%;
+    background: #1e293b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.brand-content {
+    max-width: 450px;
+}
+
+.brand-content h1 {
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+.brand-content h2 {
+    font-size: 30px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.brand-content p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #cbd5e1;
+}
+
+.register-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.register-card {
+    width: 100%;
+    max-width: 430px;
+    background: white;
+    padding: 40px;
+    border-radius: 14px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.register-card h1 {
+    margin: 0;
+    font-size: 30px;
+    color: #1e293b;
+}
+
+.subtitle {
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #334155;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 13px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input-group input:focus {
+    border-color: #1e293b;
+}
+
+.register-button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #1e293b;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.register-button:hover {
+    background: #334155;
+}
+
+.register-message {
+    text-align: center;
+    color: #15803d;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .register-page {
+        flex-direction: column;
+    }
+
+    .register-left,
+    .register-right {
+        width: 100%;
+    }
+
+    .register-left {
+        padding: 40px 25px;
+        text-align: center;
+    }
+
+    .brand-content h1 {
+        font-size: 34px;
+    }
+
+    .brand-content h2 {
+        font-size: 24px;
+    }
+
+    .register-card {
+        padding: 30px 25px;
+    }
+}

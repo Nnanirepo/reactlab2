@@ -1,0 +1,10 @@
+{
+  "name": "react-node-mongo-auth",
+  "version": "1.0.0",
+  "description": "User Authentication System with React, Node.js, and MongoDB",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "start:server": "npm --prefix server run dev",
+    "start:client": "npm --prefix client run dev"
+  }
+}
